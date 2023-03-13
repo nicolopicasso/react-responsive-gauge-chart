@@ -1,11 +1,11 @@
-# react-advanced-gauge-chart
+# react-responsive-gauge-chart
 React component for displaying a gauge chart, using D3.js
 
 # Usage
-Install it by running `npm install react-advanced-gauge-chart`. Then to use it:
+Install it by running `npm install react-responsive-gauge-chart`. Then to use it:
 
 ```jsx
-import GaugeChart from 'react-advanced-gauge-chart'
+import GaugeChart from 'react-responsive-gauge-chart'
 
 <GaugeChart id="gauge-chart1" />
 ```
@@ -34,7 +34,7 @@ Check the demo below for complete list of live examples of the charts
 ```
 
 # Demo
-https://srujithm.github.io/react-advanced-gauge-chart/
+https://nicolopicasso.github.io/react-responsive-gauge-chart/
 
 # API
 

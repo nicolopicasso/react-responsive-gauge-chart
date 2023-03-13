@@ -100,7 +100,7 @@ const GaugeChart = (props) => {
   }
     
   const { id, style, className } = props;
-  return <div id={id} className={className} style={style} />;
+  return <svg id={id} className={className} style={style} />;
 }
 
 export default GaugeChart

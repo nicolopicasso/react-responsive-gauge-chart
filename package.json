@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "module": "dist/index",
   "typings": "dist/index",
-  "homepage": "https://srujithm.github.io/react-advanced-gauge-chart/",
+  "homepage": "https://nicolopicasso.github.io/react-responsive-gauge-chart/",
   "keywords": [
     "visualization",
     "react",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/srujithm/react-advanced-gauge-chart"
+    "url": "https://github.com/nicolopicasso/react-responsive-gauge-chart"
   },
   "dependencies": {
     "d3": "^7.7.0"
