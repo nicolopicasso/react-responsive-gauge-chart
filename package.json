@@ -1,6 +1,6 @@
 {
   "name": "react-responsive-gauge-chart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "dist/index",
   "typings": "dist/index",
   "homepage": "https://nicolopicasso.github.io/react-responsive-gauge-chart/",
