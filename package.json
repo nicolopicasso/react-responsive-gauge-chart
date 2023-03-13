@@ -1,5 +1,5 @@
 {
-  "name": "react-advanced-gauge-chart",
+  "name": "react-responsive-gauge-chart",
   "version": "1.0.0",
   "module": "dist/index",
   "typings": "dist/index",

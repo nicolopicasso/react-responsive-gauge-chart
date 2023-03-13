@@ -28,7 +28,7 @@ const App = () => {
       <Container>
         <Row>
           <Col xs={12} lg={{ offset: 2, span: 8 }}>
-            <h1>React Advanced Gauge Chart Demo</h1>
+            <h1>React Responsive Gauge Chart Demo</h1>
           </Col>
         </Row>
         <Row>
