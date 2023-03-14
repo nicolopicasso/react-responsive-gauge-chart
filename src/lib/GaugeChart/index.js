@@ -100,7 +100,7 @@ const GaugeChart = (props) => {
   }
     
   const { id, style, className } = props;
-  return <svg id={id} className={className} style={style} viewBox={`0 0 ${width.current} ${height.current}`}/>;
+  return <svg id={id} className={className} style={style}/>;
 }
 
 export default GaugeChart
@@ -176,9 +176,13 @@ const setArcData = (props, nbArcsToDisplay, colorArray, arcData) => {
 const renderChart = (resize, prevProps, width, margin, height, outerRadius, g, doughnut, arcChart, needle, pieChart, svg, props, container, arcData) => {
   updateDimensions(props, container, margin, width, height);
   //Set dimensions of svg element and translations
+  let newWidth = width.current + margin.current.left + margin.current.right,
+      newHeight = height.current + margin.current.top + margin.current.bottom;
+
   svg.current
-    .attr('width', width.current + margin.current.left + margin.current.right)
-    .attr('height', height.current + margin.current.top + margin.current.bottom)
+    .attr('width', newWidth)
+    .attr('height', newHeight)
+    .attr('viewBox', `0 0 ${newWidth} ${newHeight}`)
   g.current.attr('transform', 'translate(' + margin.current.left + ', ' + margin.current.top + ')')
   //Set the radius to lesser of width or height and remove the margins
   //Calculate the new radius

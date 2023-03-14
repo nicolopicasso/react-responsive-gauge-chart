@@ -94,7 +94,8 @@ var GaugeChart = function GaugeChart(props) {
   return /*#__PURE__*/React.createElement("svg", {
     id: id,
     className: className,
-    style: style
+    style: style,
+    viewBox: "0 0 ".concat(width.current, " ").concat(height.current)
   });
 };
 export default GaugeChart;
